@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingTools.Tests", "TestingTools.Tests\TestingTools.Tests.csproj", "{3535F6BD-DA7D-44FC-BE5B-4A9166350622}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingTools.Services", "TestingTools.Services\TestingTools.Services.csproj", "{BDDFEC21-B892-4BFE-A762-44F6653DEFD7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{656EA971-0A9F-4B84-8161-981BB6E26C6E}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "packages", "packages", "{2D986323-B8BA-4436-B841-45F53F8C67E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Jenkins|Any CPU = Jenkins|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3535F6BD-DA7D-44FC-BE5B-4A9166350622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3535F6BD-DA7D-44FC-BE5B-4A9166350622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3535F6BD-DA7D-44FC-BE5B-4A9166350622}.Jenkins|Any CPU.ActiveCfg = Release|Any CPU
+		{3535F6BD-DA7D-44FC-BE5B-4A9166350622}.Jenkins|Any CPU.Build.0 = Release|Any CPU
+		{3535F6BD-DA7D-44FC-BE5B-4A9166350622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3535F6BD-DA7D-44FC-BE5B-4A9166350622}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDDFEC21-B892-4BFE-A762-44F6653DEFD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDDFEC21-B892-4BFE-A762-44F6653DEFD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDDFEC21-B892-4BFE-A762-44F6653DEFD7}.Jenkins|Any CPU.ActiveCfg = Jenkins|Any CPU
+		{BDDFEC21-B892-4BFE-A762-44F6653DEFD7}.Jenkins|Any CPU.Build.0 = Jenkins|Any CPU
+		{BDDFEC21-B892-4BFE-A762-44F6653DEFD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDDFEC21-B892-4BFE-A762-44F6653DEFD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2D986323-B8BA-4436-B841-45F53F8C67E8} = {656EA971-0A9F-4B84-8161-981BB6E26C6E}
+	EndGlobalSection
+EndGlobal
