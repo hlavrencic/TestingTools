@@ -20,5 +20,6 @@
 		<releaseNotes>Initial release.</releaseNotes>
 		<copyright>Copyright 2017</copyright>
 		<tags>Test web service host</tags>
+    <projectUrl>https://github.com/hlavrencic/TestingTools</projectUrl>
 	</metadata>
 </package>
