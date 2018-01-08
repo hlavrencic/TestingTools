@@ -14,7 +14,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{656EA9
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "packages", "packages", "{2D986323-B8BA-4436-B841-45F53F8C67E8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingTools.WcfSelfHost", "Wcf.SelfHost\TestingTools.WcfSelfHost.csproj", "{D9337E63-3A89-4C03-890C-5115B9EDD174}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingTools.WcfSelfHost.Tests", "TestingTools.WcfSelfHost.Tests\TestingTools.WcfSelfHost.Tests.csproj", "{590A5F32-85EB-4529-9116-53C3372B5C8F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,11 +37,20 @@ Global
 		{BDDFEC21-B892-4BFE-A762-44F6653DEFD7}.Jenkins|Any CPU.Build.0 = Jenkins|Any CPU
 		{BDDFEC21-B892-4BFE-A762-44F6653DEFD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDDFEC21-B892-4BFE-A762-44F6653DEFD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9337E63-3A89-4C03-890C-5115B9EDD174}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9337E63-3A89-4C03-890C-5115B9EDD174}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9337E63-3A89-4C03-890C-5115B9EDD174}.Jenkins|Any CPU.ActiveCfg = Release|Any CPU
+		{D9337E63-3A89-4C03-890C-5115B9EDD174}.Jenkins|Any CPU.Build.0 = Release|Any CPU
+		{D9337E63-3A89-4C03-890C-5115B9EDD174}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9337E63-3A89-4C03-890C-5115B9EDD174}.Release|Any CPU.Build.0 = Release|Any CPU
+		{590A5F32-85EB-4529-9116-53C3372B5C8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{590A5F32-85EB-4529-9116-53C3372B5C8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{590A5F32-85EB-4529-9116-53C3372B5C8F}.Jenkins|Any CPU.ActiveCfg = Release|Any CPU
+		{590A5F32-85EB-4529-9116-53C3372B5C8F}.Jenkins|Any CPU.Build.0 = Release|Any CPU
+		{590A5F32-85EB-4529-9116-53C3372B5C8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{590A5F32-85EB-4529-9116-53C3372B5C8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{2D986323-B8BA-4436-B841-45F53F8C67E8} = {656EA971-0A9F-4B84-8161-981BB6E26C6E}
 	EndGlobalSection
 EndGlobal
